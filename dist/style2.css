@@ -1,0 +1,89 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(98, 224, 146);
+}
+
+.box{
+    max-width: 31%;
+    border: 1px solid #ddd;
+    margin:1.8rem auto;
+    padding:1rem;
+    /* padding-bottom: 3.3rem; */
+    background-color: white;
+
+}
+label{
+    display:block;
+    margin-bottom: 0.4rem;
+
+}
+input{
+    margin-bottom: 0.9rem;
+    width: 100%;
+    padding: 0.4rem;
+    border:none;
+    border-bottom: 1px solid #ddd;
+}
+
+input:focus{
+    outline: none;
+}
+
+input:hover{
+   
+    border-bottom: 1.6px solid  rgb(98, 224, 146);
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 1.9rem;
+}
+
+
+form{
+    position: relative;
+    /* padding-bottom: 3.3rem; */
+}
+button{
+    width: 70%;
+    /* align-self: center; */
+
+    position: relative;
+    left:16%;
+    /* left:4rem; */
+    display: inline;
+/*     
+    position: absolute;
+    bottom:0;
+    left: 3.6rem; */
+    padding:0.57rem;
+    font-size: 1.2rem;
+    background-color: rgb(98, 224, 146);
+    border: none;
+    color: rgb(80, 73, 73);
+    /* margin-top: 100rem; */
+}
+
+button:focus{
+    outline: none;
+    /* color: teal; */
+}
+
+
+@media(max-width: 768px){
+
+    /* body{
+      background-color: aqua;
+    } */
+    .box {
+    max-width:71%;
+  }
